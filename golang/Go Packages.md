@@ -41,4 +41,6 @@ import (
 )
 ```
 
-Here,
+Here, `example.com/goapp` is defined with `go mod` command here [[Go CLI#Building Package]].
+
+go back to main page [[Go Language]]
