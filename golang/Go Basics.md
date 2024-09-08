@@ -41,38 +41,40 @@ age := 32.0 // this is same as line 3 in compact notation
 #### if statement
 ``` go
 if age >= 30 {
-    fmt.println("Adult")
+    fmt.Println("Adult")
 }
 ```
 #### else if statement
 ``` go
 if age >= 30 {
-    fmt.println("Adult")
+    fmt.Println("Adult")
 } else if age >= 21 {
-    fmt.println("non juvenile")
+    fmt.Println("non juvenile")
 }
 ```
 #### else statement
 ``` go
 if age >= 30 {
-    fmt.println("Adult")
+	fmt.Println("Adult")
 } else if age >= 21 {
-    fmt.println("non juvenile")
+	fmt.Println("non juvenile")
 } else {
-    fmt.println("juvenile")
+	fmt.Println("juvenile")
 }
 ```
 #### switch statement
 ``` go
+var choice int
+fmt.Scan(choice)
 switch choice {
-    case 1:
-    fmt.println("option 1 is chosen")
-    case 2:
-    fmt.println("option 2 is chosen")
-    case 3:
-    fmt.println("option 3 is chosen")
-    default:
-    fmt.println("invalid option is chosen")
+case 1:
+    fmt.Println("option 1 is chosen")
+case 2:
+    fmt.Println("option 2 is chosen")
+case 3:
+    fmt.Println("option 3 is chosen")
+default:
+    fmt.Println("invalid option is chosen")
 }
 ```
 ### Loops
