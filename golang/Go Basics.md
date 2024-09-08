@@ -1,6 +1,4 @@
-# go basics
-
-### Programme structure
+### Program structure
 
 ``` go
 package main
@@ -12,7 +10,7 @@ func main(){
 }
 ```
 
-#### Example Hello world programme
+#### Example Hello world program
 
 ``` go
 package main
@@ -26,7 +24,7 @@ func main(){
 
 ### Variables
 
-a variable decrlaration start from keyword `var` as seen in example below.
+a variable declaration start from keyword `var` as seen in example below.
 while initiation is done with `=` operator.
 ``` go
 var name string
@@ -96,3 +94,5 @@ for i:=0;i<10;i++ {
     // repeating code here
 }
 ```
+
+go back to main page [[Go Language]]
