@@ -2,3 +2,5 @@
 ## [[Go Basics]]
 ## [[Go Functions]]
 ## [[Go Handling Errors]]
+## [[Go Packages]]
+## [[Go Struct]]
