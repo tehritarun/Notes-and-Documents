@@ -97,4 +97,8 @@ for i:=0;i<10;i++ {
 }
 ```
 
+#### Loop for arrays and list
+```
+// loops for arrays and list
+```
 go back to main page [[Go Language]]

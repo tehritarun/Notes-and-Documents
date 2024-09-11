@@ -43,4 +43,14 @@ import (
 
 Here, `example.com/goapp` is defined with `go mod` command here [[Go CLI#Building Package]].
 
+#### Importing External Package
+Before importing external package, it needs to be downloaded and added to the module. This process is described here [[Go CLI#Adding External Package]]. Then it can be imported into current package with `import` keyword as shown in example below.
+```go
+package main
+
+import (
+    "github.com/Pallinder/go-randomdata"
+)
+```
+
 go back to main page [[Go Language]]

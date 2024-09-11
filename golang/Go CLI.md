@@ -20,4 +20,12 @@ go mod init example.com/<package_name>
 go build
 ```
 
+#### Adding External Package
+Any External package can be added to current module by using `go get` command.
+```shell
+go get github.com/Pallinder/go-randomdata
+```
+
+Subsequently that package can be imported as described here [[Go Packages#Importing custom package]]
+
 go back to main page [[Go Language]]

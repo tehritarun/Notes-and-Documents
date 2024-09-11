@@ -40,6 +40,9 @@ func (u *User) ClearName() {
 }
 ```
 
-
+#### Custom type
+```
+// TODO:
+```
 
 go back to main page [[Go Language]]

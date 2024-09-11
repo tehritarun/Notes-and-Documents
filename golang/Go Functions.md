@@ -31,4 +31,25 @@ func getUserInput(prompt string) (inputVal string) {
 }
 ```
 
+#### Function as Parameter value
+```
+
+```
+
+#### Function as return value
+```
+
+```
+
+#### Anonymous Functions
+```
+
+```
+
+#### Closures
+```
+
+```
+
+
 go back to main page [[Go Language]]
