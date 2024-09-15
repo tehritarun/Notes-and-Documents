@@ -50,7 +50,7 @@ fmt.Println(list)
 ```
 \\classical defination
 ```
-concise defination
+concise definition
 ```
 age := make(map[string]int)
 ```
